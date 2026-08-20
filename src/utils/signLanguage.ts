@@ -54,6 +54,8 @@ export const SIGN_LANGUAGE_MAP: Partial<Record<Language, Language>> = {
   HZJ: 'C',
   // Vietnamese base
   SLV: 'VT',
+  // Indonesian base
+  INI: 'IN',
 };
 
 /** Returns the language to use for Bible book name lookup, resolving sign languages to their spoken base. */
