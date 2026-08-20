@@ -24,6 +24,10 @@ describe('SIGN_LANGUAGE_MAP', () => {
   test('INI maps to Indonesian', () => {
     expect(SIGN_LANGUAGE_MAP['INI']).toBe('IN');
   });
+  
+  test('HDF maps to Hungarian', () => {
+    expect(SIGN_LANGUAGE_MAP['HDF']).toBe('H');
+  });
 });
 
 describe('getBookLanguage', () => {
@@ -40,6 +44,7 @@ describe('getBookLanguage', () => {
     expect(getBookLanguage('KSL')).toBe('KO');
     expect(getBookLanguage('HZJ')).toBe('C');
     expect(getBookLanguage('INI')).toBe('IN');
+    expect(getBookLanguage('HDF')).toBe('H');
   });
 });
 
