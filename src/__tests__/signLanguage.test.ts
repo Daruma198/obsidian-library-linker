@@ -24,7 +24,7 @@ describe('SIGN_LANGUAGE_MAP', () => {
   test('INI maps to Indonesian', () => {
     expect(SIGN_LANGUAGE_MAP['INI']).toBe('IN');
   });
-  
+
   test('HDF maps to Hungarian', () => {
     expect(SIGN_LANGUAGE_MAP['HDF']).toBe('H');
   });
